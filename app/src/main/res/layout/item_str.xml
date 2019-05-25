@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="105dp"
+    android:gravity="center"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp"
+    android:orientation="horizontal">
+
+    <cn.whzwl.xbs.utilityclass.customView.RoundImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:type="round"
+        app:radius="10dp"
+        android:src="@drawable/timg"
+        />
+    <cn.whzwl.xbs.utilityclass.customView.ShapeTextView
+        android:id="@+id/tv"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:gravity="center"
+        android:textColor="#FFFFFF"
+        android:textSize="17sp"
+        app:solidColor="#1fadff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        app:textRadius="5dp" />
+
+    <cn.whzwl.xbs.utilityclass.customView.RoundImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        app:type="circle"
+
+        android:src="@drawable/timg"
+        />
+
+
+</LinearLayout>
